@@ -17,5 +17,8 @@
             <dependent-object/>
             <dependency-type>uses</dependency-type>
         </dependent-module>
+        <dependent-module archiveName="Diagnostic6_API.jar" deploy-path="/lib" handle="module:/resource/Diagnostic6_API/Diagnostic6_API">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
     </wb-module>
 </project-modules>
