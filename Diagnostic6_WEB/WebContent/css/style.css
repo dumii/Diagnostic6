@@ -1,0 +1,56 @@
+
+body
+{
+	background-image: url("../images/ArrierePlan.png");
+	background-size: 100%;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+}
+
+#enTete
+{	
+	height: 100px;
+	width: auto;
+	border: black solid;
+	background-image: url("../images/barreDeMenu4.png");
+	background-size: 100% 53px;
+	background-position: 0px 34px;
+	background-repeat: no-repeat;
+	
+}
+#bandeau
+{
+	display : inline-flex;
+	padding-top: 49px;
+  	padding-left: 90px;
+  	position: absolute;
+	
+}
+
+/*
+#logoAccueil
+{
+	height: 87px;
+	width: 287px;
+	clear: both;
+	background-image: url("../images/Logo2.png");
+	background-repeat: no-repeat;
+	background-size: 87%;
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+}*/
+
+#logoAccueil
+{
+	margin-left: 10%;
+	height: 87px;
+	width: 287px;
+}
+
+.lienAccueil
+{
+	height: 87px;
+	width: 287px;
+}
+
+
