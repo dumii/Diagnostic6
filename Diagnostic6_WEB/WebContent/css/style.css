@@ -1,56 +1,216 @@
+/********************************************/
+/* 					tests				    */
+/********************************************/
 
-body
+html {overflow: scroll;}
+
+
+/*******************************************/
+/* Bordures pour la mise en forme des pages*/
+/*         A suprrimer par la suite        */
+/*******************************************/
+
+#enTete
 {
+	border: black solid;
+}
+
+#bandeauGauche
+{
+	border: red solid;
+}
+
+#bandeauDroite
+{
+	border: hotpink solid;
+}
+
+/*************************************/
+/* Mise en forme générale de la page */
+/*************************************/
+
+body {
 	background-image: url("../images/ArrierePlan.png");
 	background-size: 100%;
 	margin: 0 0 0 0;
 	padding: 0 0 0 0;
+	overflow-y: auto;
+	font-family: sans-serif;
+	background-attachment: fixed;
 }
 
-#enTete
-{	
-	height: 100px;
+
+/****************************/
+/* Barre de menu principale */
+/****************************/
+
+#enTete {
+	height: 75px;
+	width: 100%;	
+	background-image: url("../images/barreDeMenu4.png"), url("../images/ArrierePlan.png");
+ 	background-size: 100% 40px, 100%;
+ 	background-position: 0px 25px, top;
+  	background-repeat: no-repeat, no-repeat;
+	background-color: white;
+	position: fixed;
+}
+
+#rechercheBandeau {
+	display: inline-block;
+	padding-top: 3.5%;
+	padding-left: 5%;
+	position: absolute;
+}
+
+#rechercheBandeau > input[type="text"]
+{   
+    width: 150px;
+}
+
+#rechercheBandeau > input[type="image"]
+{
+	height: 19px;
+	float: right;
+	border: #BDBDBD solid 1px;
+	/*
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+	*/
+}
+
+#rechercheBandeau > div
+{
+	width: 87%;
+  	background-color: white;
+  	margin-left: 1px;
+  	/*display: none;	*/
+}
+
+#logoAccueil {
+	margin-left: 7%;
+	height: 73%;
+	margin-bottom: 2%;
+}
+
+#logoErp {
+	margin-left: 31%;
+}
+
+.logoMenu {
+	margin-top: 1%;
+	height: 93%;
 	width: auto;
-	border: black solid;
-	background-image: url("../images/barreDeMenu4.png");
-	background-size: 100% 53px;
-	background-position: 0px 34px;
-	background-repeat: no-repeat;
-	
-}
-#bandeau
-{
-	display : inline-flex;
-	padding-top: 49px;
-  	padding-left: 90px;
-  	position: absolute;
-	
 }
 
-/*
-#logoAccueil
+#logoTabBord
 {
-	height: 87px;
-	width: 287px;
-	clear: both;
-	background-image: url("../images/Logo2.png");
-	background-repeat: no-repeat;
-	background-size: 87%;
-	padding: 0 0 0 0;
-	margin: 0 0 0 0;
-}*/
+	margin-left: 5%;
+}
 
-#logoAccueil
-{
-	margin-left: 10%;
+.lienAccueil {
 	height: 87px;
 	width: 287px;
 }
 
-.lienAccueil
+/**************************/
+/* Barre de menu latérale */
+/**************************/
+
+#bandeauGauche
 {
-	height: 87px;
-	width: 287px;
+	position: fixed;
+  	width: 200px;
+  	margin-left: 5%;
+  	margin-top: 5%;
+}
+
+#boutonAjouter
+{
+	width: 100%;
+}
+
+#radio
+{
+	font-size: x-small;
+	margin-top: 8px;
+	margin-right: 0px;
+}
+
+#radio > label
+{
+	width: 65px;
+	height: 20px;
+	text-align: left;
+}
+
+#fleche
+{
+	font-weight: bold;
+	float: right;
+}
+
+#accordion
+{
+	font-size: x-small;
+	margin-top: 8px;
+}
+
+#accordion > div
+{
+	height: 200px;
 }
 
 
+/**************************/
+/*  Barre de menu droite  */
+/**************************/
+
+#bandeauDroite
+{
+	margin-left: 75%;
+ 	margin-top: 5%;
+ 	width: 200px;
+ 	background-color: white;
+ 	border: #BDBDBD solid 1px;
+	border-radius: 1px;
+	position: fixed;
+}
+
+fieldset
+{
+	border: none;
+	font-size: small;
+	padding: 6px;
+ 	margin-bottom: 12px;
+}
+
+fieldset > legend
+{
+	border-bottom: #333366 solid 1px;
+	font-weight: bold;
+	font-size: larger;
+	color: #333366;
+	width: 100%;
+}
+
+article
+{
+	margin-bottom: 10px;
+	border-bottom: #CCCCCC solid 1px;
+}
+
+article > header
+{
+	margin-bottom:5px;
+	color: blue;
+}
+
+article > time
+{
+	font-style: italic;
+}
+
+article > section
+{
+	margin-bottom: 10px;
+}
