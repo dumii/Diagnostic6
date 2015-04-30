@@ -1,35 +1,14 @@
-/********************************************/
-/* 					tests				    */
-/********************************************/
-
-html {overflow: scroll;}
-
-
-/*******************************************/
-/* Bordures pour la mise en forme des pages*/
-/*         A suprrimer par la suite        */
-/*******************************************/
-
-#enTete
-{
-	border: black solid;
-}
-
-#bandeauGauche
-{
-	border: red solid;
-}
-
-#bandeauDroite
-{
-	border: hotpink solid;
-}
-
 /*************************************/
 /* Mise en forme générale de la page */
 /*************************************/
 
-body {
+html
+{
+	overflow: scroll;
+}
+
+body
+{
 	background-image: url("../images/ArrierePlan.png");
 	background-size: 100%;
 	margin: 0 0 0 0;
@@ -57,14 +36,14 @@ body {
 
 #rechercheBandeau {
 	display: inline-block;
-	padding-top: 3.5%;
+	padding-top: 3%;
 	padding-left: 5%;
 	position: absolute;
 }
 
 #rechercheBandeau > input[type="text"]
 {   
-    width: 150px;
+    width: 200px;
 }
 
 #rechercheBandeau > input[type="image"]
@@ -80,10 +59,10 @@ body {
 
 #rechercheBandeau > div
 {
-	width: 87%;
+	width: 89.5%;
   	background-color: white;
   	margin-left: 1px;
-  	/*display: none;	*/
+  	display: none;
 }
 
 #logoAccueil {
@@ -121,7 +100,7 @@ body {
 	position: fixed;
   	width: 200px;
   	margin-left: 5%;
-  	margin-top: 5%;
+  	margin-top: 7%;
 }
 
 #boutonAjouter
@@ -168,7 +147,7 @@ body {
 #bandeauDroite
 {
 	margin-left: 75%;
- 	margin-top: 5%;
+ 	margin-top: 7%;
  	width: 200px;
  	background-color: white;
  	border: #BDBDBD solid 1px;
