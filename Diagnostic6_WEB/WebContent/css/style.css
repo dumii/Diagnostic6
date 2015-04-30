@@ -119,13 +119,6 @@ body
 {
 	width: 65px;
 	height: 20px;
-	text-align: left;
-}
-
-#fleche
-{
-	font-weight: bold;
-	float: right;
 }
 
 #accordion
