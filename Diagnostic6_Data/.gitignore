@@ -1,3 +1,7 @@
 /build
 /.settings
+<<<<<<< HEAD
 /target
+=======
+/target
+>>>>>>> refs/heads/ConsultDiagnosticTestXHTML

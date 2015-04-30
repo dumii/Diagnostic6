@@ -1,4 +1,10 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+/build
+/.settings
+/target
+>>>>>>> refs/heads/ConsultDiagnosticTestXHTML
 /bin
 /.classpath
 /.settings
