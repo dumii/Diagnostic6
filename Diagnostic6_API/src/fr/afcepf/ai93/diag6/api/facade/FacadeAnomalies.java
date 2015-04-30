@@ -1,4 +1,4 @@
-package fr.afcepf.ai93.diag6.api.business.diagnostic;
+package fr.afcepf.ai93.diag6.api.facade;
 
 import java.util.List;
 
@@ -6,7 +6,8 @@ import fr.afcepf.ai93.diag6.entity.diagnostic.Anomalie;
 import fr.afcepf.ai93.diag6.entity.diagnostic.HistoriqueAnomalie;
 import fr.afcepf.ai93.diag6.entity.diagnostic.Indicateur;
 
-public interface IBusinessAnomalie {
+public interface FacadeAnomalies {
+
 
     public List<Anomalie> recupereToutAnomalie();
 
