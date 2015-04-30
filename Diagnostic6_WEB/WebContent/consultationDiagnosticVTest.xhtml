@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:a4j="http://richfaces.org/a4j"
+      xmlns:rich="http://richfaces.org/rich"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:ui="http://java.sun.com/jsf/facelets"> 
+
+<h:head>
+	<title><ui:insert name="title" /></title>
+	<style type="text/css">
+	#page{width: 800px;}
+	#header{width: 100%; height: 100px;}
+	.header-barreEtat{width: 800px; height: 30px; float: left; border: 1px; background-color:linear-gradient(white 33%, black 5%);}
+	.header-titre{width: 800px; height: 300px; float: left; border: 1px;}
+	.header-menu{clear: both;}
+	.menus-pub{width: 150px;}
+	#contenu{width: 650px; float: left;}
+	</style>
+</h:head> 
+<body>
+    <rich:panel>
+  <f:facet name="header">
+        	<div id="page">
+				
+					<div class="header-barreEtat">ici insertion de l'image typeDiag, du nom Diag, et des symboles notifications et favoris</div>
+					<div class="header-titre">ici insertion de l'accordeon ConsultationErp</div>
+					<div class="header-menu">
+						<div class="titreTypeDiag">ici insertion "Diagnostic portant sur les conditions d'Accessibilités"</div>
+						<a href="bidon.xhtml" >page bidon</a>
+						<a href="contact.xhtml" >contacts</a>
+						<a href="GestionEspece.xhtml">GestionEspece</a>
+					</div>
+					<div class="menus-pub">ici les pubs</div>
+						<div id="contenu">
+							<ui:insert name="content" />
+					</div>
+				
+			</div>
+        </f:facet>
+		<h:outputText value="Panel Body" /> 
+	</rich:panel>
+</body> 
+</html>
